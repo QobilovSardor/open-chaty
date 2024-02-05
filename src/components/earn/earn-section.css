@@ -1,0 +1,18 @@
+.earn-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(307px, 1fr));
+	gap: 14px 19px;
+	max-width: 633px;
+}
+
+.earn-cards>div:hover {
+	transform: scaleY(1.2) scaleX(1.1);
+}
+
+.earn-cards>div:hover h3 {
+	@apply text-[27px]
+}
+
+.earn-cards>div:hover p {
+	@apply text-[19px]
+}

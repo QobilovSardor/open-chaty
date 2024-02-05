@@ -1,4 +1,4 @@
-import { Footer, Main } from "./assets/layouts"
+import { Footer, Main } from "./layouts"
 
 function App() {
 

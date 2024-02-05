@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-	@apply font-Inter font-normal
+	@apply font-Inter font-normal;
 }
 
 a {
@@ -16,17 +16,25 @@ a {
 
 /* core classes */
 .title-text {
-	@apply text-black text-[72px] font-semibold leading-160 font-Inter tracking-normal
+	@apply text-black text-[72px] font-semibold leading-160 font-Inter tracking-normal;
 }
 
 .big-title__text {
-	@apply font-GeneralSans font-semibold text-white text-[68px] leading-[150%] tracking-normal
+	@apply font-GeneralSans font-semibold text-white text-[68px] leading-[150%] tracking-normal;
 }
 
 .info {
-	@apply text-black font-Inter text-[32px] leading-160 font-normal
+	@apply text-black font-Inter text-[32px] leading-160 font-normal;
 }
 
 .btn {
-	@apply font-Inter text-2xl font-normal leading-160 tracking-normal px-[25px] py-4 rounded-[9.35px] cursor-pointer
+	@apply font-Inter font-normal leading-160 tracking-normal px-[25px] py-4 rounded-[9.35px] cursor-pointer;
+}
+
+.section-number {
+	@apply text-[#9D9D9D1C] text-[272px] font-bold leading-[1];
+}
+
+.section-number__info {
+	@apply text-[#BFBFBF] font-bold text-[32px] leading-160 mt-[-32px];
 }

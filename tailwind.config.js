@@ -7,9 +7,9 @@ export default {
 	theme: {
 		extend: {
 			"fontFamily": {
-				'Inter': 'Inter',
-				'GeneralSans': 'GeneralSans-Semibold',
-				'GeneralSans-Regular': 'GeneralSans-Regular'
+				'Inter': ['Inter', 'sans-serif'],
+				'GeneralSans': ['GeneralSans-Semibold', 'sans-serif'],
+				'GeneralSans-Regular': ['GeneralSans-Regular', 'sans-serif']
 			},
 			"lineHeight": {
 				'160': '160%',

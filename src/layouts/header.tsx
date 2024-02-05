@@ -1,4 +1,4 @@
-import assets from ".."
+import assets from "../assets"
 
 export const Header = () => {
 	return (
