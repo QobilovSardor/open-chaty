@@ -1,6 +1,6 @@
 .about-cards {
 	@apply grid gap-[60px];
-	grid-template-columns: repeat(auto-fit, minmax(438px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
 }
 
 .about-cards__two {
@@ -19,4 +19,74 @@
 	border-radius: 3.07px;
 	box-shadow: 0px 2.6px 2.6px 0px rgba(0, 0, 0, 0.08);
 	background: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 1325px) {
+	.open-chaty__box {
+		padding-right: 50px !important;
+	}
+}
+
+@media screen and (max-width: 1145px) {
+	.open-chaty__box {
+		padding: 50px !important;
+	}
+
+	.open-chaty__box .hand-box {
+		bottom: -60px;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	.open-chaty__box .open-chaty__title {
+		font-size: 50px;
+	}
+
+	.open-chaty__box .hand-box {
+		bottom: 0px;
+		width: 22%;
+	}
+
+	.open-chaty__content {
+		max-width: auto !important;
+	}
+
+	.open-chaty__box .connect-btn {
+		font-size: 25px;
+	}
+
+	.open-chaty__box .connect-btn>img {
+		width: 50px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.open-chaty__box .hand-box {
+		width: 9%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.open-chaty__title {
+		font-size: 30px !important;
+		line-height: normal;
+	}
+
+	.open-chaty__box .connect-btn {
+		@apply py-[8px] px-[20px] text-[18px]
+	}
+
+	.open-chaty__box .connect-btn>img {
+		width: 40px;
+	}
+
+	.open-chaty__box {
+		padding: 30px !important;
+	}
+
+	.about-cards__two,
+	.about-cards {
+		grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+		gap: 30px;
+	}
 }

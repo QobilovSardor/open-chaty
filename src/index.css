@@ -43,7 +43,7 @@ a {
 /* meida query start */
 @media screen and (max-width: 1440px) {
 	.container {
-		@apply px-[30px];
+		@apply max-w-full px-[30px];
 	}
 }
 
@@ -67,6 +67,20 @@ a {
 	.info {
 		@apply leading-normal
 	}
+
+	.title-text {
+		@apply text-[62px] leading-normal
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.section-number {
+		font-size: 200px;
+	}
+
+	.title-text {
+		@apply text-[52px]
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -76,5 +90,9 @@ a {
 
 	.btn {
 		@apply py-[8px] text-[16px]
+	}
+
+	.title-text {
+		@apply text-[40px]
 	}
 }

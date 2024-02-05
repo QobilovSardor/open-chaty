@@ -1,5 +1,5 @@
 import {
-	// AboutSection,
+	AboutSection,
 	// EarnSection,
 	HeroSection,
 	// StrategySection
@@ -11,7 +11,7 @@ export const Main = () => {
 			<HeroSection />
 			<div className="container">
 				{/* <EarnSection /> */}
-				{/* <AboutSection /> */}
+				<AboutSection />
 				{/* <StrategySection /> */}
 			</div>
 		</main>
