@@ -81,6 +81,10 @@ a {
 	.title-text {
 		@apply text-[52px]
 	}
+
+	.info {
+		font-size: 20px;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -88,11 +92,20 @@ a {
 		@apply text-[30px];
 	}
 
+	.container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
 	.btn {
 		@apply py-[8px] text-[16px]
 	}
 
 	.title-text {
-		@apply text-[40px]
+		@apply text-[35px]
+	}
+
+	.info {
+		font-size: 18px;
 	}
 }

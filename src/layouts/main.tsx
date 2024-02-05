@@ -2,7 +2,7 @@ import {
 	AboutSection,
 	// EarnSection,
 	HeroSection,
-	// StrategySection
+	StrategySection
 } from "../components"
 
 export const Main = () => {
@@ -12,7 +12,7 @@ export const Main = () => {
 			<div className="container">
 				{/* <EarnSection /> */}
 				<AboutSection />
-				{/* <StrategySection /> */}
+				<StrategySection />
 			</div>
 		</main>
 	)

@@ -3,7 +3,7 @@ import { Header } from "../../layouts"
 
 export const HeroSection = () => {
 	return (
-		<div className="container md:px-[30px] px-0 bg-[#111] md:pt-[38px] pt-[20px] rounded-b-[60px] lg-sm:mb-[106px] sm:mb-[80px] mb-[50px]">
+		<div className="container md:px-[30px] px-0 bg-[#111] md:pt-[38px] pt-[20px] sm:rounded-b-[40px] rounded-b-[30px] md:rounded-b-[60px] lg-sm:mb-[106px] sm:mb-[80px] mb-[50px]">
 			<Header />
 			<div className="flex lg-sm:items-center lg-sm:pt-0 pt-10 flex-col lg-sm:flex-row lg:px-[113px] md:px-[62px]">
 				<div className="text-white md:w-[494px]">

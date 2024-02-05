@@ -67,7 +67,7 @@ export const AboutSection = () => {
 
 			</div>
 
-			<div className="relative mb-[90px] overflow-hidden open-chaty__box flex lg-sm:flex-row flex-col justify-between pr-[224px] lg-sm:items-center lg-sm:space-y-0 space-y-[20px] pt-[94px] pb-[90px] pl-[76px] rounded-lg mt-[83px]">
+			<div className="relative sm:mb-[90px] mb-16 overflow-hidden open-chaty__box flex lg-sm:flex-row flex-col justify-between pr-[224px] lg-sm:items-center lg-sm:space-y-0 space-y-[20px] pt-[94px] pb-[90px] pl-[76px] rounded-lg mt-[83px]">
 				<div className="open-chaty__content max-w-[591px]">
 					<span className="text-[#FFFFFF66] font-semibold sm:text-[38px] text-[25px] leading-160 font-GeneralSans">
 						OpenChaty
