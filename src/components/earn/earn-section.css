@@ -6,16 +6,16 @@
 }
 
 .earn-cards>div:hover {
-	transform: scale(1.1);
+	border-color: #111;
 }
 
-.earn-cards>div:hover h3 {
+/* .earn-cards>div:hover h3 {
 	@apply text-[27px]
 }
 
 .earn-cards>div:hover p {
 	@apply text-[19px]
-}
+} */
 
 /* media query start */
 @media screen and (max-width: 1200px) {

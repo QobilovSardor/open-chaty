@@ -1,5 +1,5 @@
 import connectLogo from './icons/connect-logo.svg';
-import laptop from './images/laptop.png';
+import laptop from './images/laptop.svg';
 import sponsr from './icons/sponsr.svg';
 import pinned from './icons/pin.svg';
 import comment from './icons/comment.svg';
@@ -12,6 +12,7 @@ import handImg from './images/hand.png';
 import videoBg from './images/video-bg.svg';
 import footerBg from './images/footer-bg.png';
 import playIcon from './icons/play-icon.svg';
+import heroBg from './images/hero-bg.png';
 
 export default {
 	connectLogo,
@@ -27,5 +28,6 @@ export default {
 	handImg,
 	videoBg,
 	footerBg,
-	playIcon
+	playIcon,
+	heroBg
 }

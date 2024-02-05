@@ -8,8 +8,8 @@ import {
 export const Main = () => {
 	return (
 		<main>
-			<HeroSection />
 			<div className="container">
+				<HeroSection />
 				<EarnSection />
 				<AboutSection />
 				<StrategySection />
