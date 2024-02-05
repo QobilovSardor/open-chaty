@@ -38,3 +38,7 @@ a {
 .section-number__info {
 	@apply text-[#BFBFBF] font-bold text-[32px] leading-160 mt-[-32px];
 }
+
+* {
+	box-sizing: border-box;
+}

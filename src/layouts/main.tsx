@@ -1,4 +1,4 @@
-import { EarnSection, HeroSection } from "../components"
+import { AboutSection, EarnSection, HeroSection } from "../components"
 
 export const Main = () => {
 	return (
@@ -6,6 +6,7 @@ export const Main = () => {
 			<div className="container">
 				<HeroSection />
 				<EarnSection />
+				<AboutSection />
 			</div>
 		</main>
 	)

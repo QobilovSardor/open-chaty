@@ -1,0 +1,24 @@
+.about-cards {
+	@apply grid gap-[60px];
+	grid-template-columns: repeat(auto-fit, minmax(438px, 1fr));
+}
+
+.about-cards__two {
+	@apply grid gap-[18px] mt-[72px];
+	grid-template-columns: repeat(auto-fit, minmax(468px, 1fr));
+}
+
+.open-chaty__box {
+	background-image: url(../../assets/images/open-chaty-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.open-chaty__box .connect-btn {
+	box-sizing: border-box;
+	border-radius: 3.07px;
+	box-shadow: 0px 2.6px 2.6px 0px rgba(0, 0, 0, 0.08);
+	background: rgb(0, 0, 0);
+
+	
+}
