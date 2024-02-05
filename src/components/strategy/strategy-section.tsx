@@ -1,4 +1,4 @@
-import assets from "../../assets";
+// import assets from "../../assets";
 import './strategy-section.css';
 
 export const StrategySection = () => {
@@ -20,7 +20,7 @@ export const StrategySection = () => {
 
 
 			<div className="video-box overflow-hidden flex mt-[126px] items-center justify-center flex-col rounded-[43px] h-[792px] bg-[#EFEFEF] mb-[81px]">
-				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/KJwYBJMSbPI?si=5G-eHtVVngboK5gt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/KJwYBJMSbPI?si=5G-eHtVVngboK5gt" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
 
 				</iframe>
 				{/* <button>
