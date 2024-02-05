@@ -1,5 +1,5 @@
 import {
-	// Footer,
+	Footer,
 	Main
 } from "./layouts"
 
@@ -8,7 +8,7 @@ function App() {
 	return (
 		<>
 			<Main />
-			{/* <Footer /> */}
+			<Footer />
 		</>
 	)
 }

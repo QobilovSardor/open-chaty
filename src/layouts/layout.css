@@ -2,6 +2,9 @@ footer {
 	background-image: url(../assets/images/footer-bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	border-top-right-radius: 60px;
+	border-top-left-radius: 60px;
 }
 
 footer h3 {
@@ -22,9 +25,24 @@ footer h3 {
 }
 
 /* media section */
+@media screen and (max-width: 1300px) {
+	footer ul {
+		margin: 0 !important;
+	}
+
+	footer {
+		@apply px-[20px]
+	}
+}
+
 @media screen and (max-width: 992px) {
 	.media-menu {
 		@apply fixed top-0 bg-[#111] text-white w-[50%] h-full pt-16 pl-10 transition-all duration-200 z-[9999]
+	}
+
+	footer h3 {
+		font-size: 55px;
+		margin-bottom: 0;
 	}
 }
 
@@ -32,9 +50,27 @@ footer h3 {
 	.media-menu {
 		@apply w-[60%];
 	}
+
+	footer h3 {
+		font-size: 40px;
+		line-height: normal;
+	}
+
+	footer {
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+	}
 }
 
 @media screen and (max-width: 480px) {
+	footer {
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		padding-top: 60px !important;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
 	.media-menu {
 		@apply w-[100%];
 	}
