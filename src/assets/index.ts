@@ -9,6 +9,9 @@ import download from './icons/download.svg';
 import yieldIcon from './icons/yield.svg';
 import connectLightLogo from './icons/connect-light.svg';
 import handImg from './images/hand.png';
+import videoBg from './images/video-bg.svg';
+import footerBg from './images/footer-bg.png';
+import playIcon from './icons/play-icon.svg';
 
 export default {
 	connectLogo,
@@ -21,5 +24,8 @@ export default {
 	rebasing,
 	download,
 	yieldIcon,
-	handImg
+	handImg,
+	videoBg,
+	footerBg,
+	playIcon
 }

@@ -1,4 +1,4 @@
-import { AboutSection, EarnSection, HeroSection } from "../components"
+import { AboutSection, EarnSection, HeroSection, StrategySection } from "../components"
 
 export const Main = () => {
 	return (
@@ -7,6 +7,7 @@ export const Main = () => {
 				<HeroSection />
 				<EarnSection />
 				<AboutSection />
+				<StrategySection />
 			</div>
 		</main>
 	)
