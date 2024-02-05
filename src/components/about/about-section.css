@@ -4,7 +4,7 @@
 }
 
 .about-cards__two {
-	@apply grid gap-[18px] mt-[72px];
+	@apply grid gap-[18px] mt-[60px];
 	grid-template-columns: repeat(auto-fit, minmax(468px, 1fr));
 }
 
@@ -19,6 +19,4 @@
 	border-radius: 3.07px;
 	box-shadow: 0px 2.6px 2.6px 0px rgba(0, 0, 0, 0.08);
 	background: rgb(0, 0, 0);
-
-	
 }

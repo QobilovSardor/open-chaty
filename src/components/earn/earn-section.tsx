@@ -16,7 +16,7 @@ export const EarnSection = () => {
 
 			<div className="earn-cards mt-[93px]">
 
-				<div className="border border-solid border-[#E3E3E3] rounded-lg bg-[#f4f4f4] py-[50px] px-[20px] hover:bg-[#111] transition-all duration-[0.2s]">
+				<div className="border border-solid border-[#E3E3E3] rounded-lg bg-[#f4f4f4] pt-[67px] pb-[50px] pl-[28px] pr-[20px] hover:bg-[#111] transition-all duration-[0.2s]">
 					<img className="mx-auto mb-[25px] h-[130px]" src={assets.sponsr} alt="sponsr icon" />
 					<h3 className="text-[24px] font-bold leading-160 text-[#ACACAC]">
 						Sponsored like
@@ -26,7 +26,7 @@ export const EarnSection = () => {
 					</p>
 				</div>
 
-				<div className="border border-solid border-[#E3E3E3] rounded-lg bg-[#f4f4f4] py-[50px] px-[20px] hover:bg-[#111] transition-all duration-[0.2s]">
+				<div className="border border-solid border-[#E3E3E3] rounded-lg bg-[#f4f4f4] pt-[67px] pb-[50px] pl-[28px] pr-[20px] hover:bg-[#111] transition-all duration-[0.2s]">
 					<img className="mx-auto mb-[25px] h-[130px]" src={assets.pinned} alt="sponsr icon" />
 					<h3 className="text-[24px] font-bold leading-160 text-[#ACACAC]">
 						Pinned messages
@@ -36,7 +36,7 @@ export const EarnSection = () => {
 					</p>
 				</div>
 
-				<div className="border border-solid border-[#E3E3E3] rounded-lg bg-[#f4f4f4] py-[50px] px-[20px] hover:bg-[#111] transition-all duration-[0.2s]">
+				<div className="border border-solid border-[#E3E3E3] rounded-lg bg-[#f4f4f4] pt-[67px] pb-[50px] pl-[28px] pr-[20px] hover:bg-[#111] transition-all duration-[0.2s]">
 					<img className="mx-auto mb-[25px] h-[130px]" src={assets.comment} alt="sponsr icon" />
 					<h3 className="text-[24px] font-bold leading-160 text-[#ACACAC]">
 						Sponsor comment
@@ -46,7 +46,7 @@ export const EarnSection = () => {
 					</p>
 				</div>
 
-				<div className="border border-solid border-[#E3E3E3] rounded-lg bg-[#f4f4f4] py-[50px] px-[20px] hover:bg-[#111] transition-all duration-[0.2s]">
+				<div className="border border-solid border-[#E3E3E3] rounded-lg bg-[#f4f4f4] pt-[67px] pb-[50px] pl-[28px] pr-[20px] hover:bg-[#111] transition-all duration-[0.2s]">
 					<img className="mx-auto mb-[25px] h-[130px]" src={assets.message} alt="sponsr icon" />
 					<h3 className="text-[24px] font-bold leading-160 text-[#ACACAC]">
 						Message Highlight

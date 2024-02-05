@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(307px, 1fr));
 	gap: 14px 19px;
-	max-width: 633px;
+	max-width: 670px;
 }
 
 .earn-cards>div:hover {

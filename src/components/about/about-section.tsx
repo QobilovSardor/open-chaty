@@ -8,17 +8,17 @@ export const AboutSection = () => {
 					<h1 className="section-number">02</h1>
 					<p className="section-number__info">About</p>
 				</div>
-				<p className="text-black text-[32px] mb-[37px] font-normal leading-160 max-w-[789px]">
+				<p className="text-black text-[32px] mb-[22px] font-normal leading-160 max-w-[789px]">
 					Not every blockchain will be suitable for implementing the functionality we've written. Let us tell you more about <span className="font-semibold">Blast</span> and the features that made it possible to create <span className="font-semibold">Openchaty.</span>
 				</p>
 			</div>
 
-			<h2 className="title-text mt-[96px] mb-[48px]">Let’s learn how it works</h2>
+			<h2 className="title-text mt-[60px] mb-[48px]">Let’s learn how it works</h2>
 
 			<div className="about-cards">
 
 				<div className="pt-[76px] pb-[55px] rounded-lg px-[45px] bg-[#F4F4F4] hover:bg-black hover:text-white transition-all duration-[0.3s] text-[#ACACAC] border border-solid border-[#E3E3E3]">
-					<img className="mx-auto h-[165px] mb-[9px]" src={assets.rebasing} alt="rebasing icon" />
+					<img className="mx-auto h-[165px]" src={assets.rebasing} alt="rebasing icon" />
 					<h3 className="text-[26px] font-bold text-center mb-1 leading-160">Auto rebasing</h3>
 					<p className="text-[19px] leading-160">
 						Blast has been meticulously crafted to seamlessly integrate ETH at its core, enabling native rebase functionality on the L2.
@@ -26,7 +26,7 @@ export const AboutSection = () => {
 				</div>
 
 				<div className="pt-[76px] pb-[55px] rounded-lg px-[45px] bg-[#F4F4F4] hover:bg-black hover:text-white transition-all duration-[0.3s] text-[#ACACAC] border border-solid border-[#E3E3E3]">
-					<img className="mx-auto h-[165px] mb-[9px]" src={assets.download} alt="rebasing icon" />
+					<img className="mx-auto h-[165px]" src={assets.download} alt="rebasing icon" />
 					<h3 className="text-[26px] font-bold text-center mb-1 leading-160">Gas fee revenue</h3>
 					<p className="text-[19px] leading-160">
 						While other Layer 2 solutions retain the revenue generated from gas fees, Blast takes a different approach by programmatically returning this revenue to developers.
@@ -34,7 +34,7 @@ export const AboutSection = () => {
 				</div>
 
 				<div className="pt-[76px] pb-[55px] rounded-lg px-[45px] bg-[#F4F4F4] hover:bg-black hover:text-white transition-all duration-[0.3s] text-[#ACACAC] border border-solid border-[#E3E3E3]">
-					<img className="mx-auto h-[165px] mb-[9px]" src={assets.yieldIcon} alt="rebasing icon" />
+					<img className="mx-auto h-[165px]" src={assets.yieldIcon} alt="rebasing icon" />
 					<h3 className="text-[26px] font-bold text-center mb-1 leading-160">T-bill yield</h3>
 					<p className="text-[19px] leading-160">
 						The yield for USDB is generated through MakerDAO's on-chain T-Bill protocol. Users have the option to redeem USDB for USDC when transitioning back to Ethereum.
@@ -67,7 +67,7 @@ export const AboutSection = () => {
 
 			</div>
 
-			<div className="relative mb-[110px] overflow-hidden open-chaty__box flex justify-between pr-[224px] items-center pt-[94px] pb-[90px] pl-[76px] rounded-lg mt-[73px]">
+			<div className="relative mb-[90px] overflow-hidden open-chaty__box flex justify-between pr-[224px] items-center pt-[94px] pb-[90px] pl-[76px] rounded-lg mt-[83px]">
 				<div className="max-w-[591px]">
 					<span className="text-[#FFFFFF66] font-semibold text-[38px] leading-160 font-GeneralSans">
 						OpenChaty

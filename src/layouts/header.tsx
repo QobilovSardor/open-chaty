@@ -2,7 +2,7 @@ import assets from "../assets"
 
 export const Header = () => {
 	return (
-		<header className="flex items-center justify-between py-[15px] px-[30px] rounded-lg bg-[#252525A1] mx-[38px]">
+		<header className="flex items-center justify-between py-[15px] px-[30px] rounded-lg bg-[#252525A1] mx-[62px]">
 			<a className="py-[23px] px-[21px] text-[28px] leading-[34px] font-bold text-white" href="#!">OpenChaty</a>
 
 			<div className="flex items-center space-x-[122px]">

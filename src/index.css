@@ -28,11 +28,11 @@ a {
 }
 
 .btn {
-	@apply font-Inter font-normal leading-160 tracking-normal px-[25px] py-4 rounded-[9.35px] cursor-pointer;
+	@apply font-Inter font-normal leading-160 tracking-normal px-[20px] py-4 rounded-[9.35px] cursor-pointer;
 }
 
 .section-number {
-	@apply text-[#9D9D9D1C] text-[272px] font-bold leading-[1];
+	@apply text-[#9D9D9D1C] text-[272px] font-bold leading-[1] ml-[-25px];
 }
 
 .section-number__info {
