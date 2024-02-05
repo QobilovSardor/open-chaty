@@ -1,0 +1,23 @@
+footer {
+	background-image: url(../assets/images/footer-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer h3 {
+	background: linear-gradient(124.58deg, rgb(252, 40, 47), rgb(220, 10, 185), rgba(252, 45, 55, 0.57), rgb(158, 126, 231));
+	-webkit-background-clip:
+		text;
+	-webkit-text-fill-color:
+		transparent;
+	background-clip:
+		text;
+	text-fill-color:
+		transparent;
+	font-family: Inter;
+	font-size: 72px;
+	font-weight: 400;
+	line-height: 87px;
+	letter-spacing: 0%;
+	margin-bottom: 15px;
+}
