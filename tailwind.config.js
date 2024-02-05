@@ -13,6 +13,9 @@ export default {
 			},
 			"lineHeight": {
 				'160': '160%',
+			},
+			screens: {
+				'lg-sm': '992px'
 			}
 		},
 	},

@@ -39,6 +39,42 @@ a {
 	@apply text-[#BFBFBF] font-bold text-[32px] leading-160 mt-[-32px];
 }
 
-* {
-	box-sizing: border-box;
+
+/* meida query start */
+@media screen and (max-width: 1440px) {
+	.container {
+		@apply px-[30px];
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.big-title__text {
+		@apply text-[50px];
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.btn {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.big-title__text {
+		@apply text-[40px] leading-normal;
+	}
+
+	.info {
+		@apply leading-normal
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.big-title__text {
+		@apply text-[30px];
+	}
+
+	.btn {
+		@apply py-[8px] text-[16px]
+	}
 }

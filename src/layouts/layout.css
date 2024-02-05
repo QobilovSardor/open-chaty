@@ -12,12 +12,34 @@ footer h3 {
 		transparent;
 	background-clip:
 		text;
-	text-fill-color:
-		transparent;
+	text-fill-color: transparent;
 	font-family: Inter;
 	font-size: 72px;
 	font-weight: 400;
 	line-height: 87px;
 	letter-spacing: 0%;
 	margin-bottom: 15px;
+}
+
+/* media section */
+@media screen and (max-width: 992px) {
+	.media-menu {
+		@apply fixed top-0 bg-[#111] text-white w-[50%] h-full pt-16 pl-10 transition-all duration-200 z-[9999]
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.media-menu {
+		@apply w-[60%];
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.media-menu {
+		@apply w-[100%];
+	}
+
+	.container {
+		@apply px-[20px]
+	}
 }

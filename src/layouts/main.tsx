@@ -1,13 +1,18 @@
-import { AboutSection, EarnSection, HeroSection, StrategySection } from "../components"
+import {
+	// AboutSection,
+	// EarnSection,
+	HeroSection,
+	// StrategySection
+} from "../components"
 
 export const Main = () => {
 	return (
 		<main>
+			<HeroSection />
 			<div className="container">
-				<HeroSection />
-				<EarnSection />
-				<AboutSection />
-				<StrategySection />
+				{/* <EarnSection /> */}
+				{/* <AboutSection /> */}
+				{/* <StrategySection /> */}
 			</div>
 		</main>
 	)
