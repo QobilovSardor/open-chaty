@@ -6,7 +6,7 @@
 }
 
 .earn-cards>div:hover {
-	transform: scaleY(1.2) scaleX(1.1);
+	transform: scale(1.1);
 }
 
 .earn-cards>div:hover h3 {
@@ -15,4 +15,19 @@
 
 .earn-cards>div:hover p {
 	@apply text-[19px]
+}
+
+/* media query start */
+@media screen and (max-width: 1200px) {
+	.earn-section {
+		@apply flex-wrap
+	}
+
+	.earn-content {
+		@apply max-w-full !important
+	}
+
+	.earn-cards {
+		@apply max-w-full
+	}
 }

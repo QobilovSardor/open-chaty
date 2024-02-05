@@ -1,6 +1,6 @@
 import {
 	AboutSection,
-	// EarnSection,
+	EarnSection,
 	HeroSection,
 	StrategySection
 } from "../components"
@@ -10,7 +10,7 @@ export const Main = () => {
 		<main>
 			<HeroSection />
 			<div className="container">
-				{/* <EarnSection /> */}
+				<EarnSection />
 				<AboutSection />
 				<StrategySection />
 			</div>
