@@ -41,6 +41,12 @@ a {
 
 
 /* meida query start */
+@media screen and (max-width: 1800px) {
+	.container {
+		max-width: 1320px;
+	}
+}
+
 @media screen and (max-width: 1440px) {
 	.container {
 		@apply max-w-full px-[30px];
