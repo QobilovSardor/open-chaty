@@ -43,7 +43,8 @@ a {
 /* meida query start */
 @media screen and (max-width: 1800px) {
 	.container {
-		max-width: 1320px;
+		/* max-width: 1320px; */
+		max-width: 1250px;
 	}
 }
 
